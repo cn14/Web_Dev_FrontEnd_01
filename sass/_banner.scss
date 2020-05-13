@@ -1,0 +1,49 @@
+// variables
+$text-color: #fff;
+// banner-caption
+.carousel-caption {
+	position: absolute;
+	left: 0 !important;
+	width: 50% ;
+	margin-left: 10% !important;
+	top: 30% ;
+	text-align: left !important;
+	h3 {
+		font-size: 42px;
+		font-weight: bold;
+		margin-bottom: 0 ;
+	}
+	p {
+		font-size: 24px;
+		color: $text-color;
+	}
+}
+
+// banner-indicators
+.carousel-indicators {
+	li {
+		width: 20px !important;
+		height: 20px !important;
+		border-radius: 50% !important;
+	}
+}
+
+.carousel-item {
+	height: 600px;
+	img {
+		height: 600px;
+	}
+}
+
+.carousel-item {
+	.active {
+		border: none;
+	}
+}
+
+.carousel-inner {
+	img {
+		display: block;
+		width: 100%;
+	}
+}

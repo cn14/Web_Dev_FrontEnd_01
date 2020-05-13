@@ -1,0 +1,41 @@
+// variables
+$border: #000;
+// logo
+.title {
+	.navbar {
+		height: 200px !important;
+		padding: 20px 0 !important;
+		.navbar-brand {
+			transform: translateX(-50%);
+			left: 50%;
+			position: relative;
+		}
+		.logo {
+			width: auto;
+		}
+	}
+}
+
+// navs
+.navs {
+	border-top: 1px solid $border;
+	.nav-link {
+		color: black !important;
+		padding: 10px 30px !important;
+		&:hover {
+			color: rgb(21, 221, 194) !important;
+		}
+	}
+	.active {
+		color: rgb(21, 221, 194) !important;
+	}
+}
+
+.navbar-toggler {
+	margin-left: auto;
+}
+
+.navbar-nav {
+	margin-left: auto;
+	margin-right: auto;
+}
